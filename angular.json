@@ -12,7 +12,7 @@
       },
       "root": "apps/curriculum-vitae",
       "sourceRoot": "apps/curriculum-vitae/src",
-      "prefix": "curriculum-vitae",
+      "prefix": "cv",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
@@ -123,7 +123,7 @@
       "projectType": "library",
       "root": "libs/template-ui",
       "sourceRoot": "libs/template-ui/src",
-      "prefix": "curriculum-vitae",
+      "prefix": "cv",
       "architect": {
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
