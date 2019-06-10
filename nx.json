@@ -1,5 +1,5 @@
 {
-  "npmScope": "curriculum-vitae",
+  "npmScope": "cv",
   "implicitDependencies": {
     "angular.json": "*",
     "package.json": "*",
@@ -12,6 +12,9 @@
       "tags": []
     },
     "curriculum-vitae": {
+      "tags": []
+    },
+    "template-ui": {
       "tags": []
     }
   }

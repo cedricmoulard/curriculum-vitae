@@ -15,7 +15,9 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@cv/template-ui": ["libs/template-ui/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

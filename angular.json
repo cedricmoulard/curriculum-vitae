@@ -118,6 +118,37 @@
           }
         }
       }
+    },
+    "template-ui": {
+      "projectType": "library",
+      "root": "libs/template-ui",
+      "sourceRoot": "libs/template-ui/src",
+      "prefix": "curriculum-vitae",
+      "architect": {
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/template-ui/tsconfig.lib.json",
+              "libs/template-ui/tsconfig.spec.json"
+            ],
+            "exclude": ["**/node_modules/**"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "libs/template-ui/jest.config.js",
+            "tsConfig": "libs/template-ui/tsconfig.spec.json",
+            "setupFile": "libs/template-ui/src/test-setup.ts"
+          }
+        }
+      },
+      "schematics": {
+        "@nrwl/angular:component": {
+          "styleext": "scss"
+        }
+      }
     }
   },
   "cli": {
