@@ -1,0 +1,18 @@
+{
+  "npmScope": "curriculum-vitae",
+  "implicitDependencies": {
+    "angular.json": "*",
+    "package.json": "*",
+    "tsconfig.json": "*",
+    "tslint.json": "*",
+    "nx.json": "*"
+  },
+  "projects": {
+    "curriculum-vitae-e2e": {
+      "tags": []
+    },
+    "curriculum-vitae": {
+      "tags": []
+    }
+  }
+}
