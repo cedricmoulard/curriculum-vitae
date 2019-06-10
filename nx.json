@@ -16,6 +16,12 @@
     },
     "template-ui": {
       "tags": []
+    },
+    "experience-interface": {
+      "tags": []
+    },
+    "experience-ui": {
+      "tags": []
     }
   }
 }

@@ -16,7 +16,9 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@cv/template-ui": ["libs/template-ui/src/index.ts"]
+      "@cv/template-ui": ["libs/template-ui/src/index.ts"],
+      "@cv/experience-interface": ["libs/experience-interface/src/index.ts"],
+      "@cv/experience-ui": ["libs/experience-ui/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

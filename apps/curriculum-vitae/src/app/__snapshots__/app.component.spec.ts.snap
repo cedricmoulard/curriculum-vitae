@@ -39,7 +39,67 @@ exports[`AppComponent should render match snapshot 1`] = `
         <div
           template-content=""
         >
-          Contenu
+          
+          <cv-experience
+            ng-reflect-experience="[object Object]"
+          >
+            <div
+              class="flex"
+            >
+              <div
+                class="summary"
+              >
+                <div
+                  class="date"
+                >
+                  Fev 2018 - Aujourd'hui
+                </div>
+                <div>
+                  Tech Lead Angular
+                </div>
+                <div>
+                  BPCE
+                </div>
+              </div>
+              <div
+                class="description"
+              >
+                <div>
+                  Une description
+                </div>
+              </div>
+            </div>
+          </cv-experience>
+          <cv-experience
+            ng-reflect-experience="[object Object]"
+          >
+            <div
+              class="flex"
+            >
+              <div
+                class="summary"
+              >
+                <div
+                  class="date"
+                >
+                  Oct 2015 - Jan 2019
+                </div>
+                <div>
+                  CEO
+                </div>
+                <div>
+                  On Sight
+                </div>
+              </div>
+              <div
+                class="description"
+              >
+                <div>
+                  Une description
+                </div>
+              </div>
+            </div>
+          </cv-experience>
         </div>
       </div>
       <div

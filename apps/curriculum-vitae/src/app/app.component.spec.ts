@@ -1,12 +1,13 @@
 import { TestBed, async } from "@angular/core/testing";
 import { AppComponent } from "./app.component";
 import { TemplateUiModule } from "@cv/template-ui";
+import { ExperienceUiModule } from "@cv/experience-ui";
 
 describe("AppComponent", () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       declarations: [AppComponent],
-      imports: [TemplateUiModule]
+      imports: [TemplateUiModule, ExperienceUiModule]
     }).compileComponents();
   }));
 

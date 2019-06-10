@@ -1,5 +1,10 @@
 <cv-template-ui [title]="title">
-  <div template-content>Contenu</div>
+  <div template-content>
+    <cv-experience
+      *ngFor="let experience of experiences"
+      [experience]="experience"
+    ></cv-experience>
+  </div>
   <div template-sidebar>Sidebar</div>
   <div template-footer>Made with ♡ by Jeko</div>
 </cv-template-ui>
