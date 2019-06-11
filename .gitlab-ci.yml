@@ -30,7 +30,7 @@ test_job:
   script: npm run test
 
 lint_job:
-  stage: test
+  stage: quality
   script: npm run lint
 
 sonarqube-reports:
