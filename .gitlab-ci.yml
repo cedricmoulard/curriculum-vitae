@@ -41,7 +41,6 @@ sonarqube-reports:
     SONAR_ANALYSIS_MODE: publish
     SONAR_BRANCH: $CI_COMMIT_REF_SLUG
   script:
-    - npm run test
     - gitlab-sonar-scanner -Dsonar.login=$SONAR_LOGIN
 
 build_job:
