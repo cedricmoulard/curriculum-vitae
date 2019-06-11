@@ -13,6 +13,7 @@ services:
 cache:
   paths:
     - node_modules/
+    - coverage/
 
 stages:
   - install
@@ -36,8 +37,9 @@ sonarqube-reports:
   stage: quality
   image: ciricihq/gitlab-sonar-scanner
   variables:
-    SONAR_URL: https://sonarcloud.io
+    SONAR_URL: $SONAR_URL
     SONAR_ANALYSIS_MODE: publish
+    SONAR_BRANCH: $CI_COMMIT_REF_SLUG
   script:
     - gitlab-sonar-scanner -Dsonar.login=$SONAR_LOGIN
 
