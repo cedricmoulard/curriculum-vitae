@@ -11,7 +11,7 @@ import {Experience} from "@cv/experience-interface";
                 <div>{{ experience.client }}</div>
             </div>
             <div class="description">
-                <div>{{ experience.description }}</div>
+                <div Markdown [path]="experience.detailLink"></div>
             </div>
         </div>
     `,

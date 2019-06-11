@@ -17,6 +17,7 @@ cache:
 stages:
   - install
   - test
+  - quality
   - build
 
 install_job:
@@ -30,6 +31,10 @@ test_job:
 lint_job:
   stage: test
   script: npm run lint
+
+sonar_job:
+  stage: quality
+  script: npm run sonar-scanner
 
 build_job:
   stage: build

@@ -6,13 +6,28 @@ export const experiences: Experience[] = [
     to: `Aujourd'hui`,
     title: "Tech Lead Angular",
     client: "BPCE",
-    description: "Une description"
+    detailLink: '/assets/exp-1.md'
+
   },
   {
     from: "Oct 2015",
     to: `Jan 2019`,
     title: "CEO",
     client: "On Sight",
-    description: "Une description"
+    detailLink: '/assets/exp-2.md'
+  },
+  {
+    from: "2011",
+    to: `2015`,
+    title: "ScrumMaster",
+    client: "Groupe ADSN",
+    detailLink: '/assets/exp-3.md'
+  },
+  {
+    from: "2009",
+    to: `2015`,
+    title: "Tech Lead Full Stack",
+    client: "Groupe ADSN",
+    detailLink: '/assets/exp-4.md'
   }
 ];
