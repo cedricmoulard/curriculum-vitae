@@ -13,10 +13,11 @@ services:
 cache:
   paths:
     - node_modules/
+    - coverage/
 
 stages:
   - install
-  - lint
+  - test
   - quality
   - build
 
@@ -24,8 +25,12 @@ install_job:
   stage: install
   script: npm install
 
+test_job:
+  stage: test
+  script: npm run test
+
 lint_job:
-  stage: lint
+  stage: test
   script: npm run lint
 
 sonarqube-reports:
