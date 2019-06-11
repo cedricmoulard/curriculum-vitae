@@ -1,16 +1,8 @@
 <div class="container">
-  <div class="header">
-    <div>Gauche</div>
-    <div>{{ title }}</div>
-    <div>Droite</div>
-  </div>
   <div class="sidebar">
     <ng-content select="[template-sidebar]"></ng-content>
   </div>
   <div class="content">
     <ng-content select="[template-content]"></ng-content>
-  </div>
-  <div class="footer">
-    <ng-content select="[template-footer]"></ng-content>
   </div>
 </div>

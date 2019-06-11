@@ -3,5 +3,5 @@ export interface Experience {
   to: string;
   title: string;
   client: string;
-  description: string;
+  detailLink: string;
 }

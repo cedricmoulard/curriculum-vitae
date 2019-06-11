@@ -13,10 +13,12 @@ services:
 cache:
   paths:
     - node_modules/
+    - coverage/
 
 stages:
   - install
   - test
+  - quality
   - build
 
 install_job:
@@ -28,8 +30,18 @@ test_job:
   script: npm run test
 
 lint_job:
-  stage: test
+  stage: quality
   script: npm run lint
+
+sonarqube-reports:
+  stage: quality
+  image: ciricihq/gitlab-sonar-scanner
+  variables:
+    SONAR_URL: $SONAR_URL
+    SONAR_ANALYSIS_MODE: publish
+    SONAR_BRANCH: $CI_COMMIT_REF_SLUG
+  script:
+    - gitlab-sonar-scanner -Dsonar.login=$SONAR_LOGIN
 
 build_job:
   stage: build

@@ -12,25 +12,16 @@ exports[`AppComponent should render match snapshot 1`] = `
       class="container"
     >
       <div
-        class="header"
-      >
-        <div>
-          Gauche
-        </div>
-        <div>
-          Cédric Moulard
-        </div>
-        <div>
-          Droite
-        </div>
-      </div>
-      <div
         class="sidebar"
       >
         <div
           template-sidebar=""
         >
-          Sidebar
+          <img
+            alt="Logo"
+            class="portrait"
+            src="/assets/Portrait2015Carre.jpg"
+          />
         </div>
       </div>
       <div
@@ -64,9 +55,11 @@ exports[`AppComponent should render match snapshot 1`] = `
               <div
                 class="description"
               >
-                <div>
-                  Une description
-                </div>
+                <div
+                  _nghost-a-c0=""
+                  markdown=""
+                  ng-reflect-path="/assets/exp-1.md"
+                />
               </div>
             </div>
           </cv-experience>
@@ -94,21 +87,78 @@ exports[`AppComponent should render match snapshot 1`] = `
               <div
                 class="description"
               >
-                <div>
-                  Une description
-                </div>
+                <div
+                  _nghost-a-c0=""
+                  markdown=""
+                  ng-reflect-path="/assets/exp-2.md"
+                />
               </div>
             </div>
           </cv-experience>
-        </div>
-      </div>
-      <div
-        class="footer"
-      >
-        <div
-          template-footer=""
-        >
-          Made with ♡ by Jeko
+          <cv-experience
+            ng-reflect-experience="[object Object]"
+          >
+            <div
+              class="flex"
+            >
+              <div
+                class="summary"
+              >
+                <div
+                  class="date"
+                >
+                  2011 - 2015
+                </div>
+                <div>
+                  ScrumMaster
+                </div>
+                <div>
+                  Groupe ADSN
+                </div>
+              </div>
+              <div
+                class="description"
+              >
+                <div
+                  _nghost-a-c0=""
+                  markdown=""
+                  ng-reflect-path="/assets/exp-3.md"
+                />
+              </div>
+            </div>
+          </cv-experience>
+          <cv-experience
+            ng-reflect-experience="[object Object]"
+          >
+            <div
+              class="flex"
+            >
+              <div
+                class="summary"
+              >
+                <div
+                  class="date"
+                >
+                  2009 - 2015
+                </div>
+                <div>
+                  Tech Lead Full Stack
+                </div>
+                <div>
+                  Groupe ADSN
+                </div>
+              </div>
+              <div
+                class="description"
+              >
+                <div
+                  _nghost-a-c0=""
+                  markdown=""
+                  ng-reflect-path="/assets/exp-4.md"
+                />
+              </div>
+            </div>
+          </cv-experience>
         </div>
       </div>
     </div>
