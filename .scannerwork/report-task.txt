@@ -3,5 +3,5 @@ projectKey=cedricmoulard_curriculum-vitae
 serverUrl=https://sonarcloud.io
 serverVersion=7.8.0.25899
 dashboardUrl=https://sonarcloud.io/dashboard?id=cedricmoulard_curriculum-vitae
-ceTaskId=AWtHyRTs6nQjl50mTFKx
-ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AWtHyRTs6nQjl50mTFKx
+ceTaskId=AWtH1TqpAqYmNhQqSLVk
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AWtH1TqpAqYmNhQqSLVk
