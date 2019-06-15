@@ -20,6 +20,7 @@ stages:
   - test
   - quality
   - build
+  - deploy
 
 install_job:
   stage: install
@@ -33,9 +34,11 @@ lint_job:
   stage: quality
   script: npm run lint
 
-sonarqube-reports:
+sonarqube_reports:
   stage: quality
   image: ciricihq/gitlab-sonar-scanner
+  dependencies:
+    - test_job
   variables:
     SONAR_URL: $SONAR_URL
     SONAR_ANALYSIS_MODE: publish
@@ -45,4 +48,32 @@ sonarqube-reports:
 
 build_job:
   stage: build
-  script: npm run build
+  script:
+    - npm run build --prod
+    - echo "BUILD SUCCESSFULLY"
+  artifacts:
+    paths:
+      - dist/
+    expire_in: 20 mins
+  environment:
+    name: production
+  when: manual
+
+deploy_job:
+  stage: deploy
+  image: python:3.5
+  dependencies:
+    - build_job
+  script:
+    - export AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY_ID
+    - export AWS_SECRET_ACCESS_KEY=$AWS_SECRET_ACCESS_KEY
+    - export S3_BUCKET_NAME=$S3_BUCKET_NAME
+    - export DISTRIBUTION_ID=$DISTRIBUTION_ID
+    - pip install awscli --upgrade --user
+    - export PATH=~/.local/bin:$PATH
+    - aws s3 sync --acl public-read --delete dist/apps/curriculum-vitae $S3_BUCKET_NAME
+    - aws cloudfront create-invalidation --distribution-id $DISTRIBUTION_ID --paths '/*'
+    - echo "DEPLOYED SUCCESSFULLY"
+  environment:
+    name: production
+  when: manual
