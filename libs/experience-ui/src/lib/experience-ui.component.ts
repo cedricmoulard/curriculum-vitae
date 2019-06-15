@@ -1,46 +1,45 @@
-import {Component, Input} from "@angular/core";
-import {Experience} from "@cv/experience-interface";
+import { Component, Input } from "@angular/core";
+import { Experience } from "@cv/experience-interface";
 
 @Component({
-    selector: "cv-experience",
-    template: `
-        <div class="flex">
-            <div class="summary">
-                <div class="date">{{ experience.from }} - {{ experience.to }}</div>
-                <div>{{ experience.title }}</div>
-                <div>{{ experience.client }}</div>
-            </div>
-            <div class="description">
-                <div Markdown [path]="experience.detailLink"></div>
-            </div>
-        </div>
-    `,
-    styles: [
-            `
-            .flex {
-                display: flex;
-                flex-direction: row;
-                margin-bottom: 16px;
-            }
+  selector: "cv-experience",
+  template: `
+    <div class="flex">
+      <div class="summary">
+        <div class="date">{{ experience.from }} - {{ experience.to }}</div>
+        <div>{{ experience.title }}</div>
+        <div>{{ experience.client }}</div>
+      </div>
+      <div class="description">
+        <div Markdown [path]="experience.detailLink"></div>
+      </div>
+    </div>
+  `,
+  styles: [
+    `
+      .flex {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 16px;
+      }
 
-            .summary {
-                width: 400px;
-            }
+      .summary {
+        width: 400px;
+      }
 
-            .description {
-                flex: 1;
-                font-size: 0.8em;
-            }
+      .description {
+        flex: 1;
+        font-size: 0.8em;
+      }
 
-            .date {
-                color: rgb(175, 76, 82);
-                font-size: 0.8em;
-                margin-bottom: 8px;
-            }
-
-        `
-    ]
+      .date {
+        color: rgb(175, 76, 82);
+        font-size: 0.8em;
+        margin-bottom: 8px;
+      }
+    `
+  ]
 })
 export class ExperienceComponent {
-    @Input() experience: Experience;
+  @Input() experience: Experience;
 }

@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomeComponent should render match snapshot 1`] = `
+<div
+  id="root2"
+  ng-version="8.0.0"
+>
+  <div
+    class="container"
+  >
+    <div
+      class="title"
+    >
+       Cédric Moulard 
+    </div>
+    <div
+      class="subtitle"
+    >
+      ScrumMaster | Tech Lead Full Stack
+    </div>
+  </div>
+</div>
+`;
