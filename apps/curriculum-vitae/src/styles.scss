@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+@import "styles/variables";
+
+body {
+  background-color: $light-background;
+  color: $light-color;
+  font-family: "Inter UI", -apple-system, BlinkMacSystemFont, "Roboto",
+    "Segoe UI", Helvetica, Arial, sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  font-feature-settings: "liga", "tnum", "case", "calt", "zero", "ss01", "locl";
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  margin: 0;
+}

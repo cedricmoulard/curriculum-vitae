@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppComponent should render match snapshot 1`] = `
+<div
+  class="ng-tns-c1-0"
+  id="root1"
+  ng-version="8.0.0"
+>
+  <div
+    class="ng-tns-c1-0 ng-trigger ng-trigger-routeAnimations"
+    style=""
+  >
+    <router-outlet
+      class="ng-tns-c1-0"
+    />
+  </div>
+</div>
+`;

@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ExperiencesComponent should render match snapshot 1`] = `
+<div
+  id="root2"
+  ng-version="8.0.0"
+>
+  <cv-template-ui
+    ng-reflect-title="Cédric Moulard"
+  >
+    <div
+      class="container"
+    >
+      <div
+        class="header"
+      >
+        <div
+          class="portrait"
+          template-header=""
+        >
+          <img
+            alt="Logo"
+            src="/assets/Portrait2015Carre.jpg"
+          />
+        </div>
+      </div>
+      <div
+        class="content"
+      >
+        <div
+          template-content=""
+        >
+          
+        </div>
+      </div>
+      <div
+        class="footer"
+      >
+        <div
+          template-footer=""
+        >
+          Made with ♡ by Cédric Moulard
+        </div>
+      </div>
+    </div>
+  </cv-template-ui>
+</div>
+`;

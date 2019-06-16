@@ -1,0 +1,7 @@
+organization=cedricmoulard-github
+projectKey=cedricmoulard_curriculum-vitae
+serverUrl=https://sonarcloud.io
+serverVersion=7.8.0.25899
+dashboardUrl=https://sonarcloud.io/dashboard?id=cedricmoulard_curriculum-vitae
+ceTaskId=AWtIBb8S-uShzLqNhMlA
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AWtIBb8S-uShzLqNhMlA

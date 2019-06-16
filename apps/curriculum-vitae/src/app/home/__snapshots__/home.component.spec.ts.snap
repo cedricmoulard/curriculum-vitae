@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomeComponent should render match snapshot 1`] = `
+<div
+  class="ng-tns-c2-0"
+  id="root2"
+  ng-version="8.0.0"
+>
+  <div
+    class="container ng-trigger ng-trigger-titleAnimation"
+    style="transform:scale(1.2);opacity:1;0:transform;1:opacity;"
+  >
+    <div
+      class="portrait"
+    >
+      <img
+        alt="Logo"
+        class="ng-tns-c2-0"
+        src="/assets/Portrait2015Carre.jpg"
+      />
+    </div>
+    <div
+      class="title"
+    >
+       Cédric Moulard 
+    </div>
+    <div
+      class="subtitle"
+    >
+      ScrumMaster | Tech Lead Full Stack
+    </div>
+    <div
+      class="link"
+    >
+      <button
+        class="ng-tns-c2-0"
+        mat-stroked-button=""
+      >
+         En savoir (beaucoup) plus 
+      </button>
+    </div>
+  </div>
+</div>
+`;
