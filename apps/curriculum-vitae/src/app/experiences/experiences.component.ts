@@ -1,6 +1,7 @@
 import { Component, OnInit } from "@angular/core";
 import { Experience } from "@cv/experience-interface";
-import { experiences } from "../data/experiences";
+import {Observable} from "rxjs";
+import {HttpClient} from "@angular/common/http";
 
 @Component({
   selector: "cv-experiences",
@@ -9,10 +10,10 @@ import { experiences } from "../data/experiences";
 })
 export class ExperiencesComponent implements OnInit {
   title = "Cédric Moulard";
-  experiences: Experience[];
+  experiences$: Observable<Experience[]>;
 
-  constructor() {
-    this.experiences = experiences;
+  constructor(private readonly http:HttpClient) {
+    this.experiences$ = http.get<Experience[]>('/assets/experiences.json');
   }
 
   ngOnInit() {}

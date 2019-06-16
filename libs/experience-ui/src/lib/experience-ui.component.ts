@@ -6,7 +6,7 @@ import { Experience } from "@cv/experience-interface";
   template: `
     <div class="container">
       <div class="summary">
-        <div class="date">{{ experience.from }} - {{ experience.to }}</div>
+        <div class="date">{{ experience.from }}<span *ngIf="experience.to"> - {{ experience.to }}</span></div>
         <div>{{ experience.title }}</div>
         <div>{{ experience.client }}</div>
       </div>

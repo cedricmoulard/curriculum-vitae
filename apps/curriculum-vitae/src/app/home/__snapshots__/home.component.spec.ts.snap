@@ -11,11 +11,11 @@ exports[`HomeComponent should render match snapshot 1`] = `
     style="transform:scale(1.2);opacity:1;0:transform;1:opacity;"
   >
     <div
-      class="ng-tns-c2-0"
+      class="portrait"
     >
       <img
         alt="Logo"
-        class="portrait"
+        class="ng-tns-c2-0"
         src="/assets/Portrait2015Carre.jpg"
       />
     </div>
@@ -27,19 +27,17 @@ exports[`HomeComponent should render match snapshot 1`] = `
     <div
       class="subtitle"
     >
-      ScrumMaster | Tech Lead Angular
+      ScrumMaster | Tech Lead Full Stack
     </div>
     <div
       class="link"
     >
-      <a
+      <button
         class="ng-tns-c2-0"
-        href="/experiences"
-        ng-reflect-router-link="/experiences"
+        mat-stroked-button=""
       >
-        En savoir (beaucoup) plus..
-      </a>
-      . 
+         En savoir (beaucoup) plus 
+      </button>
     </div>
   </div>
 </div>

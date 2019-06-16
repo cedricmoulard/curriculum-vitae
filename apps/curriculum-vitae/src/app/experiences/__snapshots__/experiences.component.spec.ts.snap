@@ -12,14 +12,14 @@ exports[`ExperiencesComponent should render match snapshot 1`] = `
       class="container"
     >
       <div
-        class="sidebar"
+        class="header"
       >
         <div
-          template-sidebar=""
+          class="portrait"
+          template-header=""
         >
           <img
             alt="Logo"
-            class="portrait"
             src="/assets/Portrait2015Carre.jpg"
           />
         </div>
@@ -31,134 +31,15 @@ exports[`ExperiencesComponent should render match snapshot 1`] = `
           template-content=""
         >
           
-          <cv-experience
-            ng-reflect-experience="[object Object]"
-          >
-            <div
-              class="flex"
-            >
-              <div
-                class="summary"
-              >
-                <div
-                  class="date"
-                >
-                  Fev 2018 - Aujourd'hui
-                </div>
-                <div>
-                  Tech Lead Angular
-                </div>
-                <div>
-                  BPCE
-                </div>
-              </div>
-              <div
-                class="description"
-              >
-                <div
-                  _nghost-a-c2=""
-                  markdown=""
-                  ng-reflect-path="/assets/exp-1.md"
-                />
-              </div>
-            </div>
-          </cv-experience>
-          <cv-experience
-            ng-reflect-experience="[object Object]"
-          >
-            <div
-              class="flex"
-            >
-              <div
-                class="summary"
-              >
-                <div
-                  class="date"
-                >
-                  Oct 2015 - Jan 2019
-                </div>
-                <div>
-                  CEO
-                </div>
-                <div>
-                  On Sight
-                </div>
-              </div>
-              <div
-                class="description"
-              >
-                <div
-                  _nghost-a-c2=""
-                  markdown=""
-                  ng-reflect-path="/assets/exp-2.md"
-                />
-              </div>
-            </div>
-          </cv-experience>
-          <cv-experience
-            ng-reflect-experience="[object Object]"
-          >
-            <div
-              class="flex"
-            >
-              <div
-                class="summary"
-              >
-                <div
-                  class="date"
-                >
-                  2011 - 2015
-                </div>
-                <div>
-                  ScrumMaster
-                </div>
-                <div>
-                  Groupe ADSN
-                </div>
-              </div>
-              <div
-                class="description"
-              >
-                <div
-                  _nghost-a-c2=""
-                  markdown=""
-                  ng-reflect-path="/assets/exp-3.md"
-                />
-              </div>
-            </div>
-          </cv-experience>
-          <cv-experience
-            ng-reflect-experience="[object Object]"
-          >
-            <div
-              class="flex"
-            >
-              <div
-                class="summary"
-              >
-                <div
-                  class="date"
-                >
-                  2009 - 2015
-                </div>
-                <div>
-                  Tech Lead Full Stack
-                </div>
-                <div>
-                  Groupe ADSN
-                </div>
-              </div>
-              <div
-                class="description"
-              >
-                <div
-                  _nghost-a-c2=""
-                  markdown=""
-                  ng-reflect-path="/assets/exp-4.md"
-                />
-              </div>
-            </div>
-          </cv-experience>
+        </div>
+      </div>
+      <div
+        class="footer"
+      >
+        <div
+          template-footer=""
+        >
+          Made with ♡ by Cédric Moulard
         </div>
       </div>
     </div>
