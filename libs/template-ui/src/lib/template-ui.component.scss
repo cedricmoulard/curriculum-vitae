@@ -1,31 +1,25 @@
 @import "variables";
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 800px) {
   .container {
     height: 100vh;
     display: grid;
-    //grid-template-rows: 64px 1fr 130px;
-    grid-template-columns: 300px 1fr;
-    //grid-gap: 16px;
-    grid-template-areas: "sidebar main";
+    grid-template-rows: 64px 1fr 130px;
+    grid-template-columns: 1fr;
+    grid-gap: 16px;
+    grid-template-areas:
+      "head"
+      "main"
+      "foot";
+
+    .header {
+      text-align: right;
+    }
   }
 }
 
 .header {
-  display: grid;
-  grid-template-columns: 100px 1fr 100px;
-  align-items: center;
-  text-align: center;
-
   grid-area: head;
-  color: white;
-  background-color: rgb(46, 43, 61);
-}
-
-.sidebar {
-  grid-area: sidebar;
-  align-items: center;
-  text-align: center;
   background-color: $dark-background;
   padding: 16px;
 }
@@ -38,14 +32,14 @@
 .footer {
   grid-area: foot;
   height: 100px;
-  line-height: 150px;
+  line-height: 120px;
   font-size: 0.7em;
   color: white;
   background-color: $dark-background;
   text-align: center;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 799px) {
   .container {
     grid-template-rows: 64px 1fr 130px;
     grid-template-columns: 1fr;
@@ -53,5 +47,9 @@
       "head"
       "main"
       "foot";
+
+    .header {
+      text-align: center;
+    }
   }
 }

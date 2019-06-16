@@ -6,6 +6,7 @@ import {
   transition,
   trigger
 } from "@angular/animations";
+import { Router } from "@angular/router";
 
 @Component({
   selector: "cv-home",
@@ -24,9 +25,13 @@ import {
     ])
   ]
 })
-export class HomeComponent implements OnInit {
+export class HomeComponent {
   title = "Cédric Moulard";
-  subtitle = "ScrumMaster | Tech Lead Angular";
+  subtitle = "ScrumMaster | Tech Lead Full Stack";
 
-  ngOnInit() {}
+  constructor(private readonly router: Router) {}
+
+  goToExperiences() {
+    this.router.navigate(["/experiences"]);
+  }
 }
