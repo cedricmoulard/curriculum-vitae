@@ -5,7 +5,8 @@ import { ExperiencesComponent } from "./experiences.component";
 const routes: Routes = [
   {
     path: "",
-    component: ExperiencesComponent
+    component: ExperiencesComponent,
+    data: { animation: "ExperiencesPage" }
   }
 ];
 

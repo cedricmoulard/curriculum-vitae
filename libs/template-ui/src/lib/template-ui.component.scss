@@ -1,3 +1,5 @@
+@import "variables";
+
 @media only screen and (min-width: 600px) {
   .container {
     height: 100vh;
@@ -24,7 +26,7 @@
   grid-area: sidebar;
   align-items: center;
   text-align: center;
-  background-color: rgb(46, 43, 61);
+  background-color: $dark-background;
   padding: 16px;
 }
 
@@ -39,7 +41,7 @@
   line-height: 150px;
   font-size: 0.7em;
   color: white;
-  background-color: rgb(46, 43, 61);
+  background-color: $dark-background;
   text-align: center;
 }
 

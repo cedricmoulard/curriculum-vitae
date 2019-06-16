@@ -27,7 +27,10 @@
               "apps/curriculum-vitae/src/assets"
             ],
             "styles": ["apps/curriculum-vitae/src/styles.scss"],
-            "scripts": []
+            "scripts": [],
+            "stylePreprocessorOptions": {
+              "includePaths": ["apps/curriculum-vitae/src/styles"]
+            }
           },
           "configurations": {
             "production": {

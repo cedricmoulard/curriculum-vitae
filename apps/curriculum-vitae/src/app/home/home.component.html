@@ -1,6 +1,12 @@
-<div class="container">
+<div [@titleAnimation]="'true'" class="container">
+  <div>
+    <img class="portrait" src="/assets/Portrait2015Carre.jpg" alt="Logo" />
+  </div>
   <div class="title">
     {{ title }}
   </div>
-  <div class="subtitle">ScrumMaster | Tech Lead Full Stack</div>
+  <div class="subtitle">{{ subtitle }}</div>
+  <div class="link">
+    <a [routerLink]="['/experiences']">En savoir (beaucoup) plus..</a>.
+  </div>
 </div>

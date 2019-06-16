@@ -5,7 +5,7 @@ import { experiences } from "../data/experiences";
 @Component({
   selector: "cv-experiences",
   templateUrl: "./experiences.component.html",
-  styleUrls: ["./experiences.component.css"]
+  styleUrls: ["./experiences.component.scss"]
 })
 export class ExperiencesComponent implements OnInit {
   title = "Cédric Moulard";
