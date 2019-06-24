@@ -7,6 +7,7 @@ import {
   trigger
 } from "@angular/animations";
 import { Router } from "@angular/router";
+import {environment} from "../../environments/environment";
 
 @Component({
   selector: "cv-home",
@@ -28,8 +29,11 @@ import { Router } from "@angular/router";
 export class HomeComponent {
   title = "Cédric Moulard";
   subtitle = "ScrumMaster | Tech Lead Full Stack";
+  avatarUrl: string;
 
-  constructor(private readonly router: Router) {}
+  constructor(private readonly router: Router) {
+    this.avatarUrl = environment.api.avatar;
+  }
 
   goToExperiences() {
     this.router.navigate(["/experiences"]);

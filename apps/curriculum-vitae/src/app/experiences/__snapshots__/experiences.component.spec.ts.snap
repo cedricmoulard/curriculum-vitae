@@ -20,7 +20,7 @@ exports[`ExperiencesComponent should render match snapshot 1`] = `
         >
           <img
             alt="Logo"
-            src="/assets/Portrait2015Carre.jpg"
+            src="https://s3.eu-west-3.amazonaws.com/medias.cedricmoulard.io/Portrait2015Carre.jpg"
           />
         </div>
       </div>
