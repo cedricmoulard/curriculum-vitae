@@ -1,7 +1,14 @@
 [
   {
-    "from": "Fev 2018",
+    "from": "Dec 2019",
     "to": "Aujourd'hui",
+    "title": "VP of Engineering",
+    "client": "OONA",
+    "detailLink": "/assets/exp-10.md"
+  },
+  {
+    "from": "Fev 2018",
+    "to": "Nov 2019",
     "title": "Tech Lead Angular",
     "client": "BPCE",
     "detailLink": "/assets/exp-09.md"
