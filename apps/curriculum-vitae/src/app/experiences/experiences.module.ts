@@ -11,7 +11,7 @@ import { ExperiencesRoutingModule } from "./experiences-routing.module";
     CommonModule,
     TemplateUiModule,
     ExperienceUiModule,
-    ExperiencesRoutingModule
-  ]
+    ExperiencesRoutingModule,
+  ],
 })
 export class ExperiencesModule {}

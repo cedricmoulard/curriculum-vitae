@@ -9,7 +9,7 @@ import { slideInAnimation } from "./animations";
       <router-outlet #outlet="outlet"></router-outlet>
     </div>
   `,
-  animations: [slideInAnimation]
+  animations: [slideInAnimation],
 })
 export class AppComponent {
   prepareRoute(outlet: RouterOutlet) {

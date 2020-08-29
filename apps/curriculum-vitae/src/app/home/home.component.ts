@@ -4,10 +4,10 @@ import {
   state,
   style,
   transition,
-  trigger
+  trigger,
 } from "@angular/animations";
 import { Router } from "@angular/router";
-import {environment} from "../../environments/environment";
+import { environment } from "../../environments/environment";
 
 @Component({
   selector: "cv-home",
@@ -19,23 +19,23 @@ import {environment} from "../../environments/environment";
         "true",
         style({
           transform: "scale(1.2)",
-          opacity: 1
+          opacity: 1,
         })
       ),
-      transition(":enter", animate("1000ms ease-out"))
-    ])
-  ]
+      transition(":enter", animate("1000ms ease-out")),
+    ]),
+  ],
 })
 export class HomeComponent {
   title = "Cédric Moulard";
-  subtitle = "ScrumMaster | Tech Lead Full Stack";
+  subtitle = "VP of Engineering";
   avatarUrl: string;
 
   constructor(private readonly router: Router) {
     this.avatarUrl = environment.api.avatar;
   }
 
-  goToExperiences() {
-    this.router.navigate(["/experiences"]);
+  async goToExperiences() {
+    await this.router.navigate(["/experiences"]);
   }
 }
