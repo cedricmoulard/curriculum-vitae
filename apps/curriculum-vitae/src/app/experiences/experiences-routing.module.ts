@@ -6,12 +6,12 @@ const routes: Routes = [
   {
     path: "",
     component: ExperiencesComponent,
-    data: { animation: "ExperiencesPage" }
-  }
+    data: { animation: "ExperiencesPage" },
+  },
 ];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
 export class ExperiencesRoutingModule {}

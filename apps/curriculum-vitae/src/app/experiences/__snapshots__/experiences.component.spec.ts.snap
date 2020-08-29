@@ -3,11 +3,8 @@
 exports[`ExperiencesComponent should render match snapshot 1`] = `
 <div
   id="root2"
-  ng-version="8.0.0"
 >
-  <cv-template-ui
-    ng-reflect-title="Cédric Moulard"
-  >
+  <cv-template-ui>
     <div
       class="container"
     >
@@ -20,7 +17,7 @@ exports[`ExperiencesComponent should render match snapshot 1`] = `
         >
           <img
             alt="Logo"
-            src="/assets/Portrait2015Carre.jpg"
+            src="https://s3.eu-west-3.amazonaws.com/medias.cedricmoulard.io/Portrait2015Carre.jpg"
           />
         </div>
       </div>

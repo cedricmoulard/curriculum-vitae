@@ -1,0 +1,64 @@
+[
+  {
+    "from": "Fev 2018",
+    "to": "Aujourd'hui",
+    "title": "Tech Lead Angular",
+    "client": "BPCE",
+    "detailLink": "https://s3.eu-west-3.amazonaws.com/medias.cedricmoulard.io/experiences/exp-1.md"
+  },
+  {
+    "from": "Oct 2015",
+    "to": "Jan 2019",
+    "title": "CEO",
+    "client": "On Sight",
+    "detailLink": "https://s3.eu-west-3.amazonaws.com/medias.cedricmoulard.io/experiences/exp-2.md"
+  },
+  {
+    "from": "2011",
+    "to": "2015",
+    "title": "ScrumMaster",
+    "client": "Groupe ADSN",
+    "detailLink": "https://s3.eu-west-3.amazonaws.com/medias.cedricmoulard.io/experiences/exp-3.md"
+  },
+  {
+    "from": "2009",
+    "to": "2015",
+    "title": "Tech Lead Full Stack",
+    "client": "Groupe ADSN",
+    "detailLink": "https://s3.eu-west-3.amazonaws.com/medias.cedricmoulard.io/experiences/exp-4.md"
+  },
+  {
+    "from": "2008",
+    "to": "2009",
+    "title": "Chef de projet technique",
+    "client": "Cityway",
+    "detailLink": "https://s3.eu-west-3.amazonaws.com/medias.cedricmoulard.io/experiences/exp-5.md"
+  },
+  {
+    "from": "2007",
+    "to": "2008",
+    "title": "Responsable département",
+    "client": "SII",
+    "detailLink": "https://s3.eu-west-3.amazonaws.com/medias.cedricmoulard.io/experiences/exp-6.md"
+  },
+  {
+    "from": "2007",
+    "title": "Tech Lead Java",
+    "client": "SII",
+    "detailLink": "https://s3.eu-west-3.amazonaws.com/medias.cedricmoulard.io/experiences/exp-7.md"
+  },
+  {
+    "from": "2003",
+    "to": "2006",
+    "title": "Tech Lead Java",
+    "client": "SII",
+    "detailLink": "https://s3.eu-west-3.amazonaws.com/medias.cedricmoulard.io/experiences/exp-8.md"
+  },
+  {
+    "from": "2000",
+    "to": "2003",
+    "title": "Membre équipe TMA",
+    "client": "SII",
+    "detailLink": "https://s3.eu-west-3.amazonaws.com/medias.cedricmoulard.io/experiences/exp-9.md"
+  }
+]

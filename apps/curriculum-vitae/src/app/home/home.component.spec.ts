@@ -11,7 +11,7 @@ describe("HomeComponent", () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       declarations: [HomeComponent],
-      imports: [BrowserAnimationsModule, RouterTestingModule]
+      imports: [BrowserAnimationsModule, RouterTestingModule],
     }).compileComponents();
   }));
 

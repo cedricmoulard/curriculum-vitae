@@ -1,64 +1,71 @@
 [
   {
-    "from": "Fev 2018",
+    "from": "Dec 2019",
     "to": "Aujourd'hui",
+    "title": "VP of Engineering",
+    "client": "OONA",
+    "detailLink": "/assets/exp-10.md"
+  },
+  {
+    "from": "Fev 2018",
+    "to": "Nov 2019",
     "title": "Tech Lead Angular",
     "client": "BPCE",
-    "detailLink": "/assets/exp-1.md"
+    "detailLink": "/assets/exp-09.md"
   },
   {
     "from": "Oct 2015",
     "to": "Jan 2019",
     "title": "CEO",
     "client": "On Sight",
-    "detailLink": "/assets/exp-2.md"
+    "detailLink": "/assets/exp-08.md"
   },
   {
     "from": "2011",
     "to": "2015",
     "title": "ScrumMaster",
     "client": "Groupe ADSN",
-    "detailLink": "/assets/exp-3.md"
+    "detailLink": "/assets/exp-07.md"
   },
   {
     "from": "2009",
     "to": "2015",
     "title": "Tech Lead Full Stack",
     "client": "Groupe ADSN",
-    "detailLink": "/assets/exp-4.md"
+    "detailLink": "/assets/exp-06.md"
   },
   {
     "from": "2008",
     "to": "2009",
     "title": "Chef de projet technique",
     "client": "Cityway",
-    "detailLink": "/assets/exp-5.md"
+    "detailLink": "/assets/exp-05.md"
   },
   {
     "from": "2007",
     "to": "2008",
     "title": "Responsable département",
     "client": "SII",
-    "detailLink": "/assets/exp-6.md"
+    "detailLink": "/assets/exp-04.md"
   },
   {
     "from": "2007",
     "title": "Tech Lead Java",
     "client": "SII",
-    "detailLink": "/assets/exp-7.md"
+    "detailLink": "/assets/exp-03.md"
   },
   {
     "from": "2003",
     "to": "2006",
     "title": "Tech Lead Java",
     "client": "SII",
-    "detailLink": "/assets/exp-8.md"
+    "detailLink": "/assets/exp-02.md"
   },
   {
     "from": "2000",
     "to": "2003",
     "title": "Membre équipe TMA",
     "client": "SII",
-    "detailLink": "/assets/exp-9.md"
+    "detailLink": "/assets/exp-01.md"
   }
 ]
