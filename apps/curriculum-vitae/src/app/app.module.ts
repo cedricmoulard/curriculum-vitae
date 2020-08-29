@@ -4,10 +4,11 @@ import { AppComponent } from "./app.component";
 import { NgxMdModule } from "ngx-md";
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { AppRoutingModule } from "./app-routing.module";
+import { ScullyLibModule } from '@scullyio/ng-lib';
 
 @NgModule({
   declarations: [AppComponent],
-  imports: [BrowserAnimationsModule, AppRoutingModule, NgxMdModule.forRoot()],
+  imports: [BrowserAnimationsModule, AppRoutingModule, NgxMdModule.forRoot(), ScullyLibModule],
   providers: [],
   bootstrap: [AppComponent],
 })

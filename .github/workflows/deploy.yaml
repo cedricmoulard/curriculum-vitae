@@ -18,6 +18,7 @@ jobs:
         run: |
           npm install
           npm run build
+          npm run scully
         env:
           CI: true
       - uses: jakejarvis/s3-sync-action@master
@@ -28,4 +29,4 @@ jobs:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           AWS_REGION: 'eu-west-3'   # optional: defaults to us-east-1
-          SOURCE_DIR: 'dist/apps/curriculum-vitae'      # optional: defaults to entire repository
+          SOURCE_DIR: 'dist/static'      # optional: defaults to entire repository
