@@ -3,11 +3,8 @@
 exports[`ExperiencesComponent should render match snapshot 1`] = `
 <div
   id="root2"
-  ng-version="8.0.0"
 >
-  <cv-template-ui
-    ng-reflect-title="Cédric Moulard"
-  >
+  <cv-template-ui>
     <div
       class="container"
     >

@@ -2,9 +2,7 @@
 
 exports[`HomeComponent should render match snapshot 1`] = `
 <div
-  class="ng-tns-c2-0"
   id="root2"
-  ng-version="8.0.0"
 >
   <div
     class="container ng-trigger ng-trigger-titleAnimation"
@@ -15,7 +13,6 @@ exports[`HomeComponent should render match snapshot 1`] = `
     >
       <img
         alt="Logo"
-        class="ng-tns-c2-0"
         src="https://s3.eu-west-3.amazonaws.com/medias.cedricmoulard.io/Portrait2015Carre.jpg"
       />
     </div>
@@ -33,7 +30,6 @@ exports[`HomeComponent should render match snapshot 1`] = `
       class="link"
     >
       <button
-        class="ng-tns-c2-0"
         mat-stroked-button=""
       >
          En savoir (beaucoup) plus 
