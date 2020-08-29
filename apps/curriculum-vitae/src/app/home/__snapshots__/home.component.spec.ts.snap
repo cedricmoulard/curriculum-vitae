@@ -24,7 +24,7 @@ exports[`HomeComponent should render match snapshot 1`] = `
     <div
       class="subtitle"
     >
-      ScrumMaster | Tech Lead Full Stack
+      VP of Engineering
     </div>
     <div
       class="link"
