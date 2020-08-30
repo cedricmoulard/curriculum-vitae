@@ -8,10 +8,6 @@
     "tsconfig.base.json": "*"
   },
   "projects": {
-    "curriculum-vitae-e2e": {
-      "tags": [],
-      "implicitDependencies": ["curriculum-vitae"]
-    },
     "curriculum-vitae": {
       "tags": []
     },

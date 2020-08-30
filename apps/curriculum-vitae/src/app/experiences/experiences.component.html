@@ -1,5 +1,8 @@
 <cv-template-ui [title]="title">
   <div template-content>
+    <div class="headline">
+      <q class="mat-headline">Aime travailler en équipe et partager 20 ans d'expérience.</q>
+    </div>
     <cv-experience
       *ngFor="let experience of experiences$ | async"
       [experience]="experience"

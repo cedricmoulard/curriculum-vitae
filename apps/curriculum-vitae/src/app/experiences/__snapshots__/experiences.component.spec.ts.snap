@@ -27,6 +27,15 @@ exports[`ExperiencesComponent should render match snapshot 1`] = `
         <div
           template-content=""
         >
+          <div
+            class="headline"
+          >
+            <q
+              class="mat-headline"
+            >
+              Aime travailler en équipe et partager 20 ans d'expérience.
+            </q>
+          </div>
           
         </div>
       </div>
