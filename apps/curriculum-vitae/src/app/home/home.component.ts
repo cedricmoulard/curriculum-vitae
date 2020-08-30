@@ -28,7 +28,7 @@ import { environment } from "../../environments/environment";
 })
 export class HomeComponent {
   title = "Cédric Moulard";
-  subtitle = "VP of Engineering";
+  subtitle = "CTO // VP of Software Engineering";
   avatarUrl: string;
 
   constructor(private readonly router: Router) {

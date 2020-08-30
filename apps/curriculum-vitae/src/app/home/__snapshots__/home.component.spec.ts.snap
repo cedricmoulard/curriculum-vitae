@@ -24,7 +24,7 @@ exports[`HomeComponent should render match snapshot 1`] = `
     <div
       class="subtitle"
     >
-      VP of Engineering
+      CTO // VP of Software Engineering
     </div>
     <div
       class="link"

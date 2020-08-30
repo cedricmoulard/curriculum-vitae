@@ -6,6 +6,7 @@ const appRoutes: Routes = [
     path: "home",
     loadChildren: () =>
       import("./home/home.module").then((mod) => mod.HomeModule),
+    data: {title: 'Cédric Moulard | VP of Software Engineering'}
   },
   {
     path: "experiences",
@@ -13,6 +14,7 @@ const appRoutes: Routes = [
       import("./experiences/experiences.module").then(
         (mod) => mod.ExperiencesModule
       ),
+    data: {title: 'Cédric Moulard | Experiences'}
   },
   {
     path: "",
