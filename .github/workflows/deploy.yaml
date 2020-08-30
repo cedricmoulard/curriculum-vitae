@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - master
-      - next
 
 jobs:
   deploy:
@@ -17,6 +16,7 @@ jobs:
       - name: npm install and build
         run: |
           npm install
+          npm test
           npm run build
           npm run scully
         env:
