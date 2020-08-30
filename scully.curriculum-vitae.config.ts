@@ -5,6 +5,5 @@ export const config: ScullyConfig = {
   pluginDir: './scully/plugins/',
 outDir: './dist/static',
   routes: {
-  },
-  handle404: '404'
+  }
 };
